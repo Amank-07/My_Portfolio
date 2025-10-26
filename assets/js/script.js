@@ -157,3 +157,11 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
   });
 }
+
+
+
+// resume preview function
+function openResumePreview() {
+  const resumeUrl = './Resumee_aman.pdf';
+  window.open(resumeUrl, '_blank');
+}
